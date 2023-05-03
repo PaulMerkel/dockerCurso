@@ -30,6 +30,6 @@ jobs:
         docker build -t jmercado1990/graph-ql-curso:0.0.2 .
     - name: Push Dokcer image
       run: |
-        docker push jmercado1990/graph-ql-curso:0.0.2 .
+        docker push jmercado1990/graph-ql-curso:0.0.2
   #  - name: Build the Docker image
   #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
